@@ -1,0 +1,44 @@
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(196, 218, 162);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    /* Define uma altura mínima para deixar as colunas compridas */
+    min-height: 450px; 
+    margin-bottom: 10px;
+}
+
+.item {
+    background-color: rgb(164, 185, 198);
+    padding: 20px;
+    flex: 1; /* Ocupa 1 parte proporcional */
+}
+
+.principal {
+    background-color: rgb(164, 185, 198);
+    color: white;
+    flex: 2; /* Ocupa o dobro de largura das laterais */
+}
+
+/* Estilo do Rodapé */
+.footer {
+    background-color: rgb(196, 218, 162);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
